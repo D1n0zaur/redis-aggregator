@@ -17,4 +17,5 @@ public class WeatherRequest {
     private Integer pressure;
     private Double windSpeed;
     private String weatherCondition;
+    private String iconCode;
 }

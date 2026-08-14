@@ -18,4 +18,5 @@ public class WeatherResponse {
     private Double windSpeed;
     private String weatherCondition;
     private String timestamp;
+    private String iconCode;
 }
