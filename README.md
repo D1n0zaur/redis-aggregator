@@ -1,4 +1,7 @@
 #  Weather Aggregator Microservice
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.1.0-green)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 Микросервис для автоматического сбора, хранения и кеширования данных о погоде из внешнего API OpenWeatherMap.
 
@@ -68,11 +71,9 @@ OPENWEATHER_API_KEY=твой_апи_ключ
 docker-compose up -d
 ```
 
-#### Эта команда поднимет:
-
-PostgreSQL на порту 5432
-
-Redis на порту 6379
+Эта команда поднимет:
+- **PostgreSQL** на порту `5432`
+- **Redis** на порту `6379`
 
 ### 4. Собери и запусти приложение
 
@@ -128,3 +129,7 @@ curl http://localhost:8080/api/v1/weather/Moscow/history
 ## Лицензия
 
 MIT
+
+## Контакты
+- **GitHub:** [D1n0zaur](https://github.com/D1n0zaur)
+- **Telegram:** @LokTarOgar812
